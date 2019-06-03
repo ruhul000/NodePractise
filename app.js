@@ -80,6 +80,7 @@ if (app.get('env') === 'development') {
   app.use(errorHandlers.developmentErrors);
 }
 
+console.log("Hello");
 // production error handler
 app.use(errorHandlers.productionErrors);
 
