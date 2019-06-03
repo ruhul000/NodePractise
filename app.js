@@ -82,6 +82,7 @@ if (app.get('env') === 'development') {
 
 console.log("Hello");
 console.log("Hello-3");
+const name = "Mission";
 // production error handler
 app.use(errorHandlers.productionErrors);
 
